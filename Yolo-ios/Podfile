@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Yolo-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Yolo-ios
+  pod 'Bagel'
+  pod 'AlamofireImage'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftyJSON'
+  pod 'ReachabilitySwift'
+  pod 'JGProgressHUD'
+
+  target 'Yolo-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Yolo-iosUITests' do
+    # Pods for testing
+  end
+
+end

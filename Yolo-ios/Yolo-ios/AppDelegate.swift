@@ -6,14 +6,30 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+
+#if DEBUG
+import Bagel
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    var window: UIWindow?
+    
+    var rootNavController: UINavigationController? {
+        get {
+            return window?.rootViewController as? UINavigationController
+        }
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        #if DEBUG
+        Bagel.start()
+        #endif
+
+        IQKeyboardManager.shared.enable = true
+        
         return true
     }
 

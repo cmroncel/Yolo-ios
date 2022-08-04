@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FAD262DA6274E58DE354C3 /* Pods_Yolo_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E35C564BD828DCA47AADD6 /* Pods_Yolo_ios.framework */; };
 		50238CA7289C5730006696BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CA6289C5730006696BD /* AppDelegate.swift */; };
 		50238CA9289C5730006696BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CA8289C5730006696BD /* SceneDelegate.swift */; };
-		50238CAB289C5730006696BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CAA289C5730006696BD /* ViewController.swift */; };
-		50238CAE289C5730006696BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50238CAC289C5730006696BD /* Main.storyboard */; };
 		50238CB0289C5732006696BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50238CAF289C5732006696BD /* Assets.xcassets */; };
 		50238CB3289C5732006696BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50238CB1289C5732006696BD /* LaunchScreen.storyboard */; };
 		50238CBE289C5732006696BD /* Yolo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CBD289C5732006696BD /* Yolo_iosTests.swift */; };
 		50238CC8289C5732006696BD /* Yolo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CC7289C5732006696BD /* Yolo_iosUITests.swift */; };
 		50238CCA289C5732006696BD /* Yolo_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CC9289C5732006696BD /* Yolo_iosUITestsLaunchTests.swift */; };
+		50238CE2289C5CD5006696BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE1289C5CD5006696BD /* BaseViewController.swift */; };
+		50238CE4289C5D0D006696BD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE3289C5D0D006696BD /* BaseViewModel.swift */; };
+		50238CE6289C5D33006696BD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE5289C5D33006696BD /* Notification.swift */; };
+		50238CE8289C5D5E006696BD /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE7289C5D5E006696BD /* UIViewController.swift */; };
+		50238CEA289C5D88006696BD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE9289C5D88006696BD /* String.swift */; };
+		50238CEC289C5DB6006696BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50238CEB289C5DB6006696BD /* Localizable.strings */; };
+		50238CEF289C5DF3006696BD /* XibNameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CEE289C5DF3006696BD /* XibNameProvider.swift */; };
+		50238CFB289C5E82006696BD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CF9289C5E82006696BD /* SplashViewController.swift */; };
+		50238CFC289C5E82006696BD /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50238CFA289C5E82006696BD /* SplashViewController.xib */; };
+		50238CFE289C5EA1006696BD /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CFD289C5EA1006696BD /* SplashViewModel.swift */; };
+		B4695A70DA3EB9A3B356C57F /* Pods_Yolo_ios_Yolo_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE865CB7226550FADDB7BCB /* Pods_Yolo_ios_Yolo_iosUITests.framework */; };
+		EA14F3150A330C55DD84637E /* Pods_Yolo_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A04EDF6E9F9A6F05102AAA9 /* Pods_Yolo_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E35C564BD828DCA47AADD6 /* Pods_Yolo_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yolo_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEEBF6F330D1F6F92499573 /* Pods-Yolo-ios.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios.mock.xcconfig"; path = "Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios.mock.xcconfig"; sourceTree = "<group>"; };
 		50238CA3289C5730006696BD /* Yolo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yolo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50238CA6289C5730006696BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50238CA8289C5730006696BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50238CAA289C5730006696BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50238CAD289C5730006696BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50238CAF289C5732006696BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50238CB2289C5732006696BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50238CB4289C5732006696BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,26 @@
 		50238CC3289C5732006696BD /* Yolo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yolo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50238CC7289C5732006696BD /* Yolo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolo_iosUITests.swift; sourceTree = "<group>"; };
 		50238CC9289C5732006696BD /* Yolo_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolo_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50238CE1289C5CD5006696BD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		50238CE3289C5D0D006696BD /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		50238CE5289C5D33006696BD /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		50238CE7289C5D5E006696BD /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		50238CE9289C5D88006696BD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		50238CEB289C5DB6006696BD /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		50238CEE289C5DF3006696BD /* XibNameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibNameProvider.swift; sourceTree = "<group>"; };
+		50238CF9289C5E82006696BD /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		50238CFA289C5E82006696BD /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		50238CFD289C5EA1006696BD /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		5A04EDF6E9F9A6F05102AAA9 /* Pods_Yolo_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yolo_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFFBCA9ED28E1E7D6CE351F /* Pods-Yolo-iosTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-iosTests.mock.xcconfig"; path = "Target Support Files/Pods-Yolo-iosTests/Pods-Yolo-iosTests.mock.xcconfig"; sourceTree = "<group>"; };
+		8FE865CB7226550FADDB7BCB /* Pods_Yolo_ios_Yolo_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yolo_ios_Yolo_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F3D34E2A30BA5D832AEBB5 /* Pods-Yolo-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios.release.xcconfig"; path = "Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B711C508E5E1BEA51A744878 /* Pods-Yolo-ios-Yolo-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios-Yolo-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAC0DD42F4D2E5D003584F4F /* Pods-Yolo-ios-Yolo-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios-Yolo-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE48E7788B9E26F49E6FB40A /* Pods-Yolo-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-iosTests.release.xcconfig"; path = "Target Support Files/Pods-Yolo-iosTests/Pods-Yolo-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEA59045C1DE7446CB04D7E8 /* Pods-Yolo-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Yolo-iosTests/Pods-Yolo-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8AAC19C62D225DDB221821 /* Pods-Yolo-ios-Yolo-iosUITests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios-Yolo-iosUITests.mock.xcconfig"; path = "Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests.mock.xcconfig"; sourceTree = "<group>"; };
+		E21778889A655ADB6CBCB1BB /* Pods-Yolo-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-ios.debug.xcconfig"; path = "Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FAD262DA6274E58DE354C3 /* Pods_Yolo_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA14F3150A330C55DD84637E /* Pods_Yolo_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4695A70DA3EB9A3B356C57F /* Pods_Yolo_ios_Yolo_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +117,8 @@
 				50238CBC289C5732006696BD /* Yolo-iosTests */,
 				50238CC6289C5732006696BD /* Yolo-iosUITests */,
 				50238CA4289C5730006696BD /* Products */,
+				9CAF9D57FC1D1ADDC43A8D6F /* Pods */,
+				C859E7E4D092A6897408B552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +135,17 @@
 		50238CA5289C5730006696BD /* Yolo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				50238CDA289C58BC006696BD /* Model */,
+				50238CD9289C58B7006696BD /* View */,
+				50238CD8289C58AD006696BD /* CustomView */,
+				50238CD7289C58A7006696BD /* Extension */,
+				50238CD6289C589D006696BD /* Helper */,
 				50238CA6289C5730006696BD /* AppDelegate.swift */,
 				50238CA8289C5730006696BD /* SceneDelegate.swift */,
-				50238CAA289C5730006696BD /* ViewController.swift */,
-				50238CAC289C5730006696BD /* Main.storyboard */,
 				50238CAF289C5732006696BD /* Assets.xcassets */,
 				50238CB1289C5732006696BD /* LaunchScreen.storyboard */,
 				50238CB4289C5732006696BD /* Info.plist */,
+				50238CEB289C5DB6006696BD /* Localizable.strings */,
 			);
 			path = "Yolo-ios";
 			sourceTree = "<group>";
@@ -127,6 +167,164 @@
 			path = "Yolo-iosUITests";
 			sourceTree = "<group>";
 		};
+		50238CD6289C589D006696BD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		50238CD7289C58A7006696BD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50238CE5289C5D33006696BD /* Notification.swift */,
+				50238CE7289C5D5E006696BD /* UIViewController.swift */,
+				50238CE9289C5D88006696BD /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		50238CD8289C58AD006696BD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		50238CD9289C58B7006696BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50238CF8289C5E71006696BD /* SplashView */,
+				50238CE0289C5CC1006696BD /* BaseView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50238CDA289C58BC006696BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50238CF5289C5E54006696BD /* DTO */,
+				50238CF4289C5E4E006696BD /* Provider */,
+				50238CF3289C5E3E006696BD /* Service */,
+				50238CF2289C5E33006696BD /* Repository */,
+				50238CF1289C5E1F006696BD /* Enum */,
+				50238CF0289C5E10006696BD /* Entity */,
+				50238CED289C5DD5006696BD /* Protocol */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50238CE0289C5CC1006696BD /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				50238CE1289C5CD5006696BD /* BaseViewController.swift */,
+				50238CE3289C5D0D006696BD /* BaseViewModel.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		50238CED289C5DD5006696BD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				50238CEE289C5DF3006696BD /* XibNameProvider.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		50238CF0289C5E10006696BD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		50238CF1289C5E1F006696BD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		50238CF2289C5E33006696BD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		50238CF3289C5E3E006696BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		50238CF4289C5E4E006696BD /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		50238CF5289C5E54006696BD /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				50238CF7289C5E5F006696BD /* RequestDTO */,
+				50238CF6289C5E58006696BD /* ResponseDTO */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		50238CF6289C5E58006696BD /* ResponseDTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseDTO;
+			sourceTree = "<group>";
+		};
+		50238CF7289C5E5F006696BD /* RequestDTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestDTO;
+			sourceTree = "<group>";
+		};
+		50238CF8289C5E71006696BD /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				50238CF9289C5E82006696BD /* SplashViewController.swift */,
+				50238CFA289C5E82006696BD /* SplashViewController.xib */,
+				50238CFD289C5EA1006696BD /* SplashViewModel.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		9CAF9D57FC1D1ADDC43A8D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E21778889A655ADB6CBCB1BB /* Pods-Yolo-ios.debug.xcconfig */,
+				A0F3D34E2A30BA5D832AEBB5 /* Pods-Yolo-ios.release.xcconfig */,
+				CAC0DD42F4D2E5D003584F4F /* Pods-Yolo-ios-Yolo-iosUITests.debug.xcconfig */,
+				B711C508E5E1BEA51A744878 /* Pods-Yolo-ios-Yolo-iosUITests.release.xcconfig */,
+				CEA59045C1DE7446CB04D7E8 /* Pods-Yolo-iosTests.debug.xcconfig */,
+				CE48E7788B9E26F49E6FB40A /* Pods-Yolo-iosTests.release.xcconfig */,
+				0FEEBF6F330D1F6F92499573 /* Pods-Yolo-ios.mock.xcconfig */,
+				DE8AAC19C62D225DDB221821 /* Pods-Yolo-ios-Yolo-iosUITests.mock.xcconfig */,
+				5FFFBCA9ED28E1E7D6CE351F /* Pods-Yolo-iosTests.mock.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C859E7E4D092A6897408B552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E35C564BD828DCA47AADD6 /* Pods_Yolo_ios.framework */,
+				8FE865CB7226550FADDB7BCB /* Pods_Yolo_ios_Yolo_iosUITests.framework */,
+				5A04EDF6E9F9A6F05102AAA9 /* Pods_Yolo_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50238CCD289C5732006696BD /* Build configuration list for PBXNativeTarget "Yolo-ios" */;
 			buildPhases = (
+				48574007E9C3F826C90DDDEA /* [CP] Check Pods Manifest.lock */,
 				50238C9F289C5730006696BD /* Sources */,
 				50238CA0289C5730006696BD /* Frameworks */,
 				50238CA1289C5730006696BD /* Resources */,
+				351B7C7C58E62105B2E42301 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +351,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50238CD0289C5732006696BD /* Build configuration list for PBXNativeTarget "Yolo-iosTests" */;
 			buildPhases = (
+				72FD1D312A8B724D2C908371 /* [CP] Check Pods Manifest.lock */,
 				50238CB5289C5732006696BD /* Sources */,
 				50238CB6289C5732006696BD /* Frameworks */,
 				50238CB7289C5732006696BD /* Resources */,
@@ -169,9 +370,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50238CD3289C5732006696BD /* Build configuration list for PBXNativeTarget "Yolo-iosUITests" */;
 			buildPhases = (
+				02896E34A5C7311F99B21B5E /* [CP] Check Pods Manifest.lock */,
 				50238CBF289C5732006696BD /* Sources */,
 				50238CC0289C5732006696BD /* Frameworks */,
 				50238CC1289C5732006696BD /* Resources */,
+				30D6B8C0CE6D753AFDEA481C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +435,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				50238CB3289C5732006696BD /* LaunchScreen.storyboard in Resources */,
+				50238CEC289C5DB6006696BD /* Localizable.strings in Resources */,
 				50238CB0289C5732006696BD /* Assets.xcassets in Resources */,
-				50238CAE289C5730006696BD /* Main.storyboard in Resources */,
+				50238CFC289C5E82006696BD /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +457,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02896E34A5C7311F99B21B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yolo-ios-Yolo-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D6B8C0CE6D753AFDEA481C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios-Yolo-iosUITests/Pods-Yolo-ios-Yolo-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		351B7C7C58E62105B2E42301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yolo-ios/Pods-Yolo-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48574007E9C3F826C90DDDEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yolo-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72FD1D312A8B724D2C908371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yolo-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50238C9F289C5730006696BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50238CAB289C5730006696BD /* ViewController.swift in Sources */,
+				50238CE8289C5D5E006696BD /* UIViewController.swift in Sources */,
 				50238CA7289C5730006696BD /* AppDelegate.swift in Sources */,
+				50238CE6289C5D33006696BD /* Notification.swift in Sources */,
+				50238CFB289C5E82006696BD /* SplashViewController.swift in Sources */,
+				50238CE4289C5D0D006696BD /* BaseViewModel.swift in Sources */,
+				50238CFE289C5EA1006696BD /* SplashViewModel.swift in Sources */,
+				50238CEA289C5D88006696BD /* String.swift in Sources */,
 				50238CA9289C5730006696BD /* SceneDelegate.swift in Sources */,
+				50238CE2289C5CD5006696BD /* BaseViewController.swift in Sources */,
+				50238CEF289C5DF3006696BD /* XibNameProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +611,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50238CAC289C5730006696BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50238CAD289C5730006696BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		50238CB1289C5732006696BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +738,7 @@
 		};
 		50238CCE289C5732006696BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21778889A655ADB6CBCB1BB /* Pods-Yolo-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +749,12 @@
 				INFOPLIST_FILE = "Yolo-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +770,7 @@
 		};
 		50238CCF289C5732006696BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F3D34E2A30BA5D832AEBB5 /* Pods-Yolo-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +781,12 @@
 				INFOPLIST_FILE = "Yolo-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +802,7 @@
 		};
 		50238CD1289C5732006696BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA59045C1DE7446CB04D7E8 /* Pods-Yolo-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +823,7 @@
 		};
 		50238CD2289C5732006696BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE48E7788B9E26F49E6FB40A /* Pods-Yolo-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +844,7 @@
 		};
 		50238CD4289C5732006696BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC0DD42F4D2E5D003584F4F /* Pods-Yolo-ios-Yolo-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +863,7 @@
 		};
 		50238CD5289C5732006696BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B711C508E5E1BEA51A744878 /* Pods-Yolo-ios-Yolo-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +880,139 @@
 			};
 			name = Release;
 		};
+		50238CDC289C5C21006696BD /* Mock */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Mock;
+		};
+		50238CDD289C5C21006696BD /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEEBF6F330D1F6F92499573 /* Pods-Yolo-ios.mock.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5695B3Z7RZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yolo-ios/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yolo.Yolo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG MOCK_REPOSITORY LOG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mock;
+		};
+		50238CDE289C5C21006696BD /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFFBCA9ED28E1E7D6CE351F /* Pods-Yolo-iosTests.mock.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5695B3Z7RZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yolo.Yolo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yolo-ios.app/Yolo-ios";
+			};
+			name = Mock;
+		};
+		50238CDF289C5C21006696BD /* Mock */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8AAC19C62D225DDB221821 /* Pods-Yolo-ios-Yolo-iosUITests.mock.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5695B3Z7RZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yolo.Yolo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yolo-ios";
+			};
+			name = Mock;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,6 +1020,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50238CCB289C5732006696BD /* Debug */,
+				50238CDC289C5C21006696BD /* Mock */,
 				50238CCC289C5732006696BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -578,6 +1030,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50238CCE289C5732006696BD /* Debug */,
+				50238CDD289C5C21006696BD /* Mock */,
 				50238CCF289C5732006696BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -587,6 +1040,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50238CD1289C5732006696BD /* Debug */,
+				50238CDE289C5C21006696BD /* Mock */,
 				50238CD2289C5732006696BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -596,6 +1050,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50238CD4289C5732006696BD /* Debug */,
+				50238CDF289C5C21006696BD /* Mock */,
 				50238CD5289C5732006696BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

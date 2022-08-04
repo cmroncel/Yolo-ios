@@ -10,13 +10,18 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let scene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(windowScene: scene)
+        window?.rootViewController = getRootViewController()
+        window?.makeKeyAndVisible()
+        window?.backgroundColor = .white
+        window?.overrideUserInterfaceStyle = .light
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -48,5 +53,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 
+}
+
+// MARK:- Root VC Provider
+extension SceneDelegate {
+    private func getRootViewController() -> UIViewController {
+        #if MOCK_REPOSITORY
+        let launchVC = SplashViewController.create()
+        #else
+        let launchVC = SplashViewController.create()
+        #endif
+        
+        return wrapWithNavigationController(viewController: launchVC)
+    }
+    
+    private func wrapWithNavigationController(viewController: UIViewController) -> UIViewController {
+        let navController = UINavigationController(rootViewController: viewController)
+        navController.navigationBar.isHidden = true
+        navController.interactivePopGestureRecognizer?.isEnabled = false
+        navController.view.backgroundColor = .white
+        return navController
+    }
 }
 
