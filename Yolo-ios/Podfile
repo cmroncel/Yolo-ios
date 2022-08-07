@@ -12,6 +12,7 @@ target 'Yolo-ios' do
   pod 'SwiftyJSON'
   pod 'ReachabilitySwift'
   pod 'JGProgressHUD'
+  pod 'EasyTipView'
 
   target 'Yolo-iosTests' do
     inherit! :search_paths

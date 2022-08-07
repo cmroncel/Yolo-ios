@@ -59,9 +59,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 extension SceneDelegate {
     private func getRootViewController() -> UIViewController {
         #if MOCK_REPOSITORY
-        let launchVC = SplashViewController.create()
+        let launchVC = LoginViewController.create()
         #else
-        let launchVC = SplashViewController.create()
+        let launchVC = LoginViewController.create()
         #endif
         
         return wrapWithNavigationController(viewController: launchVC)

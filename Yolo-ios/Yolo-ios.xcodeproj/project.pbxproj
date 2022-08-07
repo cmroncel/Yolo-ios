@@ -20,11 +20,19 @@
 		50238CE6289C5D33006696BD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE5289C5D33006696BD /* Notification.swift */; };
 		50238CE8289C5D5E006696BD /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE7289C5D5E006696BD /* UIViewController.swift */; };
 		50238CEA289C5D88006696BD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CE9289C5D88006696BD /* String.swift */; };
-		50238CEC289C5DB6006696BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50238CEB289C5DB6006696BD /* Localizable.strings */; };
 		50238CEF289C5DF3006696BD /* XibNameProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CEE289C5DF3006696BD /* XibNameProvider.swift */; };
 		50238CFB289C5E82006696BD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CF9289C5E82006696BD /* SplashViewController.swift */; };
 		50238CFC289C5E82006696BD /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50238CFA289C5E82006696BD /* SplashViewController.xib */; };
 		50238CFE289C5EA1006696BD /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50238CFD289C5EA1006696BD /* SplashViewModel.swift */; };
+		50D6104228A0106400DB07E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D6104428A0106400DB07E3 /* Localizable.strings */; };
+		50FA639A289FD2340093F8EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA6398289FD2340093F8EC /* LoginViewController.swift */; };
+		50FA639B289FD2340093F8EC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50FA6399289FD2340093F8EC /* LoginViewController.xib */; };
+		50FA639D289FD2400093F8EC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA639C289FD2400093F8EC /* LoginViewModel.swift */; };
+		50FA63A1289FDEF90093F8EC /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA63A0289FDEF90093F8EC /* BaseTextField.swift */; };
+		50FA63A3289FE0330093F8EC /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA63A2289FE0330093F8EC /* UITextField.swift */; };
+		50FA63A5289FE3880093F8EC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA63A4289FE3880093F8EC /* BaseView.swift */; };
+		50FA63A7289FF2D10093F8EC /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA63A6289FF2D10093F8EC /* BaseButton.swift */; };
+		50FA63AA289FF5800093F8EC /* M13Checkbox in Frameworks */ = {isa = PBXBuildFile; productRef = 50FA63A9289FF5800093F8EC /* M13Checkbox */; };
 		B4695A70DA3EB9A3B356C57F /* Pods_Yolo_ios_Yolo_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE865CB7226550FADDB7BCB /* Pods_Yolo_ios_Yolo_iosUITests.framework */; };
 		EA14F3150A330C55DD84637E /* Pods_Yolo_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A04EDF6E9F9A6F05102AAA9 /* Pods_Yolo_iosTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,11 +73,21 @@
 		50238CE5289C5D33006696BD /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		50238CE7289C5D5E006696BD /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		50238CE9289C5D88006696BD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		50238CEB289C5DB6006696BD /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		50238CEE289C5DF3006696BD /* XibNameProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibNameProvider.swift; sourceTree = "<group>"; };
 		50238CF9289C5E82006696BD /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		50238CFA289C5E82006696BD /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		50238CFD289C5EA1006696BD /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		50D6103D28A00F3400DB07E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		50D6103F28A00FEC00DB07E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		50D6104328A0106400DB07E3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50D6104528A0106700DB07E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50FA6398289FD2340093F8EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50FA6399289FD2340093F8EC /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		50FA639C289FD2400093F8EC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		50FA63A0289FDEF90093F8EC /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		50FA63A2289FE0330093F8EC /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		50FA63A4289FE3880093F8EC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		50FA63A6289FF2D10093F8EC /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		5A04EDF6E9F9A6F05102AAA9 /* Pods_Yolo_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yolo_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFFBCA9ED28E1E7D6CE351F /* Pods-Yolo-iosTests.mock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yolo-iosTests.mock.xcconfig"; path = "Target Support Files/Pods-Yolo-iosTests/Pods-Yolo-iosTests.mock.xcconfig"; sourceTree = "<group>"; };
 		8FE865CB7226550FADDB7BCB /* Pods_Yolo_ios_Yolo_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yolo_ios_Yolo_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FAD262DA6274E58DE354C3 /* Pods_Yolo_ios.framework in Frameworks */,
+				50FA63AA289FF5800093F8EC /* M13Checkbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +154,7 @@
 		50238CA5289C5730006696BD /* Yolo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				50FA639E289FDEDC0093F8EC /* Constants */,
 				50238CDA289C58BC006696BD /* Model */,
 				50238CD9289C58B7006696BD /* View */,
 				50238CD8289C58AD006696BD /* CustomView */,
@@ -145,7 +165,7 @@
 				50238CAF289C5732006696BD /* Assets.xcassets */,
 				50238CB1289C5732006696BD /* LaunchScreen.storyboard */,
 				50238CB4289C5732006696BD /* Info.plist */,
-				50238CEB289C5DB6006696BD /* Localizable.strings */,
+				50D6104428A0106400DB07E3 /* Localizable.strings */,
 			);
 			path = "Yolo-ios";
 			sourceTree = "<group>";
@@ -180,6 +200,7 @@
 				50238CE5289C5D33006696BD /* Notification.swift */,
 				50238CE7289C5D5E006696BD /* UIViewController.swift */,
 				50238CE9289C5D88006696BD /* String.swift */,
+				50FA63A2289FE0330093F8EC /* UITextField.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -194,6 +215,7 @@
 		50238CD9289C58B7006696BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50FA6397289FD2240093F8EC /* LoginView */,
 				50238CF8289C5E71006696BD /* SplashView */,
 				50238CE0289C5CC1006696BD /* BaseView */,
 			);
@@ -299,6 +321,34 @@
 			path = SplashView;
 			sourceTree = "<group>";
 		};
+		50FA6397289FD2240093F8EC /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				50FA6398289FD2340093F8EC /* LoginViewController.swift */,
+				50FA6399289FD2340093F8EC /* LoginViewController.xib */,
+				50FA639C289FD2400093F8EC /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		50FA639E289FDEDC0093F8EC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				50FA639F289FDEE80093F8EC /* Controls */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		50FA639F289FDEE80093F8EC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				50FA63A0289FDEF90093F8EC /* BaseTextField.swift */,
+				50FA63A4289FE3880093F8EC /* BaseView.swift */,
+				50FA63A6289FF2D10093F8EC /* BaseButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		9CAF9D57FC1D1ADDC43A8D6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +393,9 @@
 			dependencies = (
 			);
 			name = "Yolo-ios";
+			packageProductDependencies = (
+				50FA63A9289FF5800093F8EC /* M13Checkbox */,
+			);
 			productName = "Yolo-ios";
 			productReference = 50238CA3289C5730006696BD /* Yolo-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -416,8 +469,12 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 50238C9A289C5730006696BD;
+			packageReferences = (
+				50FA63A8289FF5800093F8EC /* XCRemoteSwiftPackageReference "M13Checkbox" */,
+			);
 			productRefGroup = 50238CA4289C5730006696BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -434,8 +491,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D6104228A0106400DB07E3 /* Localizable.strings in Resources */,
+				50FA639B289FD2340093F8EC /* LoginViewController.xib in Resources */,
 				50238CB3289C5732006696BD /* LaunchScreen.storyboard in Resources */,
-				50238CEC289C5DB6006696BD /* Localizable.strings in Resources */,
 				50238CB0289C5732006696BD /* Assets.xcassets in Resources */,
 				50238CFC289C5E82006696BD /* SplashViewController.xib in Resources */,
 			);
@@ -567,14 +625,20 @@
 			files = (
 				50238CE8289C5D5E006696BD /* UIViewController.swift in Sources */,
 				50238CA7289C5730006696BD /* AppDelegate.swift in Sources */,
+				50FA63A7289FF2D10093F8EC /* BaseButton.swift in Sources */,
 				50238CE6289C5D33006696BD /* Notification.swift in Sources */,
 				50238CFB289C5E82006696BD /* SplashViewController.swift in Sources */,
+				50FA63A1289FDEF90093F8EC /* BaseTextField.swift in Sources */,
 				50238CE4289C5D0D006696BD /* BaseViewModel.swift in Sources */,
 				50238CFE289C5EA1006696BD /* SplashViewModel.swift in Sources */,
 				50238CEA289C5D88006696BD /* String.swift in Sources */,
 				50238CA9289C5730006696BD /* SceneDelegate.swift in Sources */,
+				50FA63A3289FE0330093F8EC /* UITextField.swift in Sources */,
+				50FA639D289FD2400093F8EC /* LoginViewModel.swift in Sources */,
 				50238CE2289C5CD5006696BD /* BaseViewController.swift in Sources */,
+				50FA63A5289FE3880093F8EC /* BaseView.swift in Sources */,
 				50238CEF289C5DF3006696BD /* XibNameProvider.swift in Sources */,
+				50FA639A289FD2340093F8EC /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,8 +679,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				50238CB2289C5732006696BD /* Base */,
+				50D6103D28A00F3400DB07E3 /* tr */,
+				50D6103F28A00FEC00DB07E3 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50D6104428A0106400DB07E3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D6104328A0106400DB07E3 /* tr */,
+				50D6104528A0106700DB07E3 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -626,6 +701,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -686,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -884,6 +961,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1057,6 +1135,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		50FA63A8289FF5800093F8EC /* XCRemoteSwiftPackageReference "M13Checkbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Marxon13/M13Checkbox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50FA63A9289FF5800093F8EC /* M13Checkbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50FA63A8289FF5800093F8EC /* XCRemoteSwiftPackageReference "M13Checkbox" */;
+			productName = M13Checkbox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50238C9B289C5730006696BD /* Project object */;
 }

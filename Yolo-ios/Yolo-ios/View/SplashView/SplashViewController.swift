@@ -32,7 +32,8 @@ class SplashViewController: BaseViewController, SplashViewModelDelegate {
     }
     
     func navigateToLoginPage() {
-        print("navigate to login page")
+        let vc: LoginViewController = LoginViewController.create()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func showErrorMessageAndClose(errorMessage: String) {

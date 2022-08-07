@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Yolo-ios
+
+  Created by Cemre Öncel on 7.08.2022.
+  
+*/
+"error" = "Hata";
+"done" = "Tamam";
+"tryAgain" = "Tekrar Dene";
+"noInternetMessage" = "İnternet bağlantınızı kontrol ediniz";
+
+
+// Error Messages
+"generalErrorMessage" = "generalErrorMessage";
+"encryptionFailedMessage" = "encryptionFailedMessage";
+"decryptionFailedMessage" = "decryptionFailedMessage";
+"JsonDecoderFailedMessage" = "JsonDecoderFailedMessage";
+
+// Words and phrases
+"phoneNumberText" = "Telefon Numarası";
+"passwordText" = "Şifre girin";
+"loginButtonText" = "Giriş Yap";
+"rememberMeText" = "Beni Hatırla";
+"forgotPasswordText" = "Şifremi unuttum";
+"registerText" = "Hesabınız yok mu?";
+"registerButtonText" = "Üye Ol";
+"guestButtonText" = "Misafir olarak devam et";
+
+
+"passwordPolicyText" = "*Şifreniz en az 8 karakter, büyük harf, küçük harf, sayı ve özel karakter içermelidir.";
